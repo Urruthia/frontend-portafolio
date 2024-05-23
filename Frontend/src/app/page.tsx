@@ -1,7 +1,7 @@
+import { redirect } from 'next/navigation';
 import Image from "next/image";
-
+//entorno de visualizacion rapida
 export default function Home() {
-  return (
-  <h1>Aqui comenzara mi pagina con react</h1>
-  );
+  
+    return redirect("/principal");
 }
