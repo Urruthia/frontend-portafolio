@@ -5,11 +5,16 @@ export default function Page() {
       <div className="flex ">
         <div className="  items-center justify-center">
           <div className="relative">
-          <Image src="/contrato.png"
-          width={800}
+          <Image src="/blockchain2.jpeg"
+          width={900}
           height={0}
   
-           alt="walle"/>
+           alt="blockchain"/>
+                    <Image src="/blockchain1.jpeg"
+          width={900}
+          height={0}
+  
+           alt="blockchain1"/>
 
     
     
@@ -23,17 +28,17 @@ export default function Page() {
             <h1 className="text-3xl font-bold text-white mb-4">CRUD Contrato Inteligente</h1>
             <div className="mb-6">
               <h2 className="text-xl font-semibold text-white mb-2">Descripción</h2>
-              <p className="text-white">El proyecto tenía como objetivo usar microcontroladores para llevar a cabo una idea cualquiera. Nosotros decidimos crear un carro espía, el cual fue evolucionando en diseño hasta convertirse en Walle.</p>
+              <p className="text-white">El proyecto es pequeño, debiamos crear un CRUD por un contrato inteligente para poder utilizar la tecnologìa blockhain, teniamos que aplicar a un empleado que tuviera dpi, nombre, apellido, direccion, fecha de nacimiento, edad, salario, y puesto. Un atributo que se modificaba para saber si el empleado estaba contratado ono.  Es el proyecto mas reciente en el cual he participado</p>
             </div>
             <div className="mb-6">
               <h2 className="text-xl font-semibold text-white mb-2">Procedimiento y Resultado</h2>
-              <p className="text-white">Vamos a resaltar el uso de los controladores que son Arduino y el PIC18F4450. El Arduino controló el movimiento de los motores del Walle mediante código escrito en C en su IDE, mientras que el PIC18F4550 se encargaba de controlar la ESP32CAM, la cual era la responsable de transmitir una imagen hacia una página web. Además, se encargaban de la iluminación de los ojos.</p>
+              <p className="text-white">Utilizamos el IDE de Remix para porgramar contratos inteligentes por medio de Solidity, Utilizamos redes de prueba por medio de Metamask para poder conseguir Ether que son necesarios para poder desplegar nuestro contrato y que se haga cambio en el Blochain.</p>
               <br />
-              <p className="text-white">El diseño se hizo atractivo al pensar en crear un personaje conocido y convertirlo en un espía. El diseño fue hecho por nosotros mismos, utilizando diferentes materiales.</p>
+              <p className="text-white">Decidimos aprovchar que blockchain tiene una forma de almacenar los datos por medio de nodos, y un nodo nunca sera elimnado por completo, entonce se puede tener historial de datos, por lo que el eliminar empleado en este caso solo se le desactiva el role para seguir aprovechando el nodo.</p>
             </div>
             <div>
               <h2 className="text-xl font-semibold text-white mb-2">Mi Rol</h2>
-              <p className="text-white">Mi rol dentro de este proyecto fue crear el primer circuito para que el motor moviera las llantas, así como la programación del IDE del Arduino.</p>
+              <p className="text-white">Fue un proyecto realizado por 2 personas se podria decir que utilizamos la metodologìa de programacion extrema, mi rol en este caso fue codificar el Contrato Inteligente</p>
             </div>
           </div>
         </div>

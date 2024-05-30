@@ -51,9 +51,16 @@ export default function Projects(){
          
             <div className="bg-gray-700 p-4 rounded-lg transform transition-all duration-500 hover:scale-105">
               
+            <Image src="/remix.jpg"
+          width={1000}
+          height={760}
+          className="w-full rounded-lg shadow-lg transform transition-all duration-500 hover:scale-110"
+           alt="remix"/>
                 <div className="p-4">
-                    <p className="text-gray-300 mb-4">Piedra, Papel y Tijera</p>
-                    <a href="#" className="text-purple-400 hover:text-purple-300 font-bold">Ver más</a>
+                    <p className="text-gray-300 mb-4">Piedra, Papel o Tijeras</p>
+                    <Link href="principal/ppt" legacyBehavior>
+                    <a id="link" className="text-purple-400 hover:text-purple-300 font-bold">Ver más</a>
+                    </Link>
                 </div>
             </div>
         </div>
