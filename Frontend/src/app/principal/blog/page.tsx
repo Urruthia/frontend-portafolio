@@ -8,13 +8,13 @@ interface Blog {
         Title: string;
         publication: string;
         Text: string;
-      };
+      }
     }
   ];
 }
 
 export default async function Home() {
-  const response = await axios.get<Blog[]>(`${parsedEnv.NEXT_STRAPI_URL}/blogs`, {
+  const response = await axios.get<Blog>(`${parsedEnv.NEXT_STRAPI_URL}/blogs`, {
     headers: {
       Authorization: "Bearer " + parsedEnv.NEXT_STRAPI_TOKEN,
     },
@@ -23,8 +23,9 @@ export default async function Home() {
 
   return (
     <main>
-      {response.data.data.map((blog) => (
-        <div  className="mb-8 sm:mb-12 lg:mb-16">
+      <article> 
+      {response.data.data.map((blog, index) => (
+        <div key={index} className="mb-8 sm:mb-12 lg:mb-16">
           <div className="max-w-md mx-auto bg-purple-700 rounded-lg overflow-hidden shadow-lg">
             <div className="px-6 py-4">
               <div className="font-bold text-xl text-center mb-2">{blog.attributes.Title}</div>
@@ -37,6 +38,8 @@ export default async function Home() {
           </div>
         </div>
       ))}
+
+</article> 
     </main>
   );
 }
