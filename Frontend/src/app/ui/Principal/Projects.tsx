@@ -8,11 +8,11 @@ export default function Projects(){
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         
             <div className="bg-gray-700 p-4 rounded-lg transform transition-all duration-500 hover:scale-105">
-            <Image src="/yo3.jpeg"
+            <Image src="/deadrun1.png"
           width={1000}
           height={760}
           className="w-full rounded-lg shadow-lg transform transition-all duration-500 hover:scale-110"
-           alt="Foto mia"/>
+           alt="deadRun"/>
                 <div className="p-4">
                     <p className="text-gray-300 mb-4">Dead RuN</p>
                     <Link href="principal/deadrun" legacyBehavior>
@@ -51,11 +51,11 @@ export default function Projects(){
          
             <div className="bg-gray-700 p-4 rounded-lg transform transition-all duration-500 hover:scale-105">
               
-            <Image src="/remix.jpg"
+            <Image src="/tijeras.png"
           width={1000}
           height={760}
           className="w-full rounded-lg shadow-lg transform transition-all duration-500 hover:scale-110"
-           alt="remix"/>
+           alt="ppt"/>
                 <div className="p-4">
                     <p className="text-gray-300 mb-4">Piedra, Papel o Tijeras</p>
                     <Link href="principal/ppt" legacyBehavior>

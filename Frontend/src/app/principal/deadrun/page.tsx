@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <main className="mx-auto max-w-screen-xl">
+    <main className="mx-auto max-w-screen-2xl">
       <div className="flex flex-col lg:flex-row">
         {/* Imágenes */}
         <div className="lg:w-1/2 relative">
           <div className="relative w-full h-1/2 mb-10 lg:mb-0">
-            <Image src="/blockchain2.jpeg" layout="fill" objectFit="cover" alt="blockchain" />
+            <Image src="/deadrun3.png" layout="fill" objectFit="cover" alt="dead" />
           </div>
-          <div className="relative w-full h-48">
-            <Image src="/blockchain1.jpeg" layout="fill" objectFit="cover" alt="blockchain1" />
+          <div className="relative w-full h-1/2">
+            <Image src="/deadrun2.png" layout="fill" objectFit="cover" alt="run" />
           </div>
         </div>
         

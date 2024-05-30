@@ -7,10 +7,10 @@ export default function Page() {
         {/* Imágenes */}
         <div className="lg:w-1/2 relative">
           <div className="relative">
-            <Image src="/blockchain2.jpeg" layout="responsive" width={1600} height={1067} alt="blockchain" />
+            <Image src="/hand.png" layout="responsive" width={1600} height={1067} alt="hand" />
           </div>
           <div className="relative w-full h-48 lg:h-auto">
-            <Image src="/blockchain1.jpeg" layout="responsive" width={1600} height={1067} alt="blockchain1" />
+            <Image src="/mediapipe.png" layout="responsive" width={1600} height={1067} alt="mediapipe" />
           </div>
         </div>
         
