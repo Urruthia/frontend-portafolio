@@ -3,9 +3,9 @@ import Link from 'next/link';
 export default function Projects(){
 
     return (<div className="mt-10 flex justify-center">
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-3/4">
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg md:w-3/4">
         <h2 className="text-4xl font-bold text-purple-400 mb-6 text-center">Mis Proyectos</h2>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         
             <div className="bg-gray-700 p-4 rounded-lg transform transition-all duration-500 hover:scale-105">
             <Image src="/yo3.jpeg"
